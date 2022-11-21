@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-main-content {
+    padding: 20px;
+    border-color: rgb(157, 227, 245);
+    box-shadow: 0px 0px 100px 100px rgba(141, 214, 230, 0.514);
+    background-color: rgb(250, 250, 250);
+  }
+  
+  
+  .form-main-content h3 {
+    text-shadow: 4px 2px 4px #9ce0ff;
+    color: rgb(0, 0, 0);
+    font-size: 2.3rem;
+    letter-spacing: 2px;
+  }
+  
+  
+   /* TEXT INPUT CSS  */
+  .input-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 130px;
+    margin-top: 20px;
+    padding: 0px 0px 0px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: rgba(9, 10, 10, 0.3) 0px 1px 2px 0px, rgba(17, 18, 19, 0.15) 0px 1px 4px 2px;
+  }
+  
+  @media screen and (max-width:576px) {
+    .form-main-content {
+      padding: 10px !important;
+    }
+  
+    .input-div {
+      min-height: 100px !important;
+      padding: 5px 0px 0px 10px !important;
+    }
+  
+    .form-input {
+      margin-top: 22px !important;
+      font-size: 15px !important;
+    }
+  
+    .form-label {
+      font-size: 14px !important;
+      line-height: 17px !important;
+      letter-spacing: .2px !important;
+    }
+  
+  }
+  
+  .form-input {
+    border: none;
+    outline: none;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(173, 173, 173);
+    background-color: transparent;
+  }
+  
+  .form-input::placeholder {
+    color: rgb(101, 102, 101);
+    font-size: 17px;
+  }
+  
+  .form-input:focus {
+    border-bottom: 2px solid rgb(7, 7, 7);
+  }
+  
+  .form-label {
+    font-size: 1rem;
+    letter-spacing: .8px;
+    margin: 0;
+  }
+  
+  .form-label span {
+    color: red;
+    font-size: 20px;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+  
+  
+  /* / BUTTON CSS / */
+  .form-input-btn {
+    padding: 10px 40px;
+    color: rgb(3, 3, 3);
+    font-size: 20px;
+    font-weight: 700;
+    background: linear-gradient(to right, #33ccff 0%, #00ffcc 100%);
+    border: none;
+    border-radius: 25px;
+  
+  }
+  
+  .form-input-btn:hover {
+    transition: 1s;
+    color: rgb(0, 0, 0) !important;
+  
+  }
+  
+  .form-input-btn a {
+    text-decoration: none;
+    color: rgb(0, 0, 0) !important;
+  }
+  
+  .form-input-btn a:hover {
+    color: rgb(255, 255, 255) !important;
+  
+  }
